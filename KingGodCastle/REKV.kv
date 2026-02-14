@@ -1,0 +1,192 @@
+#:import utils kivy.utils 
+
+WindowManager:
+	SimulatorSettings:
+	UpgradeSimulator:
+
+<WindowManager>
+	SimulatorSettings:
+		id:SimSet
+	UpgradeSimulator:
+		id:UpgSim
+
+	
+
+	
+<SimulatorSettings>
+	initlvl:Initlvl
+	tarlvl:Tarlvl
+	simno:Simno
+	name: "SimSet"
+	
+	GridLayout:
+		cols:1
+		padding:50
+		size:root.width,root.height
+			
+		BoxLayout:
+			size_hint_y:root.height*(5/6)
+			cols:1
+			
+			GridLayout:
+					
+				cols:1
+					
+				
+				BoxLayout:
+					padding:25
+					Label:
+							
+						text: "What level to start? : "
+					TextInput:
+						id: Initlvl
+						text: '1'
+						input_type: 'number'
+						multiline: False
+						halign: 'center'
+						padding_y: [self.height / 2.0 - (self.line_height / 2.0), 0]
+	
+				BoxLayout:
+					padding:25				
+					Label:
+							
+						text:"Target level to track? :"
+					TextInput:
+							
+						id:Tarlvl
+						text:'1'
+						input_type: 'number'
+						multiline:False
+						halign: 'center'
+						padding_y: [self.height / 2.0 - (self.line_height / 2.0), 0]
+	
+				BoxLayout:
+					padding:25					
+					Label:
+						
+						text: "How many simulation? : "
+					TextInput:
+						
+						id:Simno
+						text:'1'
+						input_type: 'number'
+						multiline:False
+						halign: 'center'
+						padding_y: [self.height / 2.0 - (self.line_height / 2.0), 0]
+					
+						
+		Button:
+			id: practice
+			text: "Start consecutive upgrade"
+			size_hint_y: root.height/6
+			
+			
+			on_release:
+				root.Start_Consecutive_Upgrade(practice)
+				self.parent.ids
+				app.root.current = 'UpgSim'
+		
+		
+
+<UpgradeSimulator>
+	curlvl:Current_Level_Label
+	stat:Status_Label
+	succ:Successes_Label
+	fail:Fail_Label
+	atcount:AttemptCounter
+	
+	feed:UpgradesFeed
+	
+	name: 'UpgSim'
+	BoxLayout:
+		size: root.width,root.height
+		orientation:'vertical'
+		BoxLayout:
+			size_hint_y: root.height*1/10
+			
+			Label:
+				id:AttemptCounter
+				text: "--Attempt 1--"
+		BoxLayout:
+			size_hint_y: root.height*9/10
+			orientation:"vertical"
+			id: up_screen
+			
+			canvas.before:
+				Color:
+					rgba: root.color
+				
+				Rectangle:
+					size: up_screen.size
+					pos: up_screen.pos
+
+				
+			GridLayout:
+				cols:2
+				size_hint_y: root.height*1/9
+				id: up_stat
+				
+				canvas.before:
+					Color:
+						rgba: utils.get_color_from_hex('#000000')
+						
+					Rectangle:
+						size: up_stat.size
+						pos: up_stat.pos
+				
+				Label:
+					id: Current_Level_Label
+					text: "Current Level:"
+					text_size: self.size
+					halign: 'left'
+					
+				Label:
+					id: Status_Label
+					text: "Status:"
+					text_size: self.size
+					halign: 'left'
+					
+				Label:
+					id: Successes_Label
+					text: "Successes:"
+					text_size: self.size
+					halign: 'left'
+					
+				Label:
+					id: Fail_Label
+					text: "Fails:"
+					text_size: self.size
+					halign: 'left'
+				
+				
+				
+			Image:
+				source: 'RiftLance.png'
+				size: self.parent.height, self.parent.width
+				size_hint_y: root.height*2/9
+			Label:
+				text: "--Unique Rift Equipment--"
+			
+			Label:
+				text_size: self.size
+				id: UpgradesFeed
+				background_color:(0,0,0,0)
+				size_hint_y: root.height*3.5/9
+				max_lines: 14
+				
+				
+				halign: 'left'
+				valign: 'bottom'
+			
+				
+			Button:
+				text:"Upgrade"
+				size_hint_y: root.height*1/9
+				on_release:
+					#app.root.current = 'SimSet'
+					#root.upgrade()
+					
+			
+			
+			
+	

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "kgcriftequipsimulator",
+  "private_key_id": "ce4ca5c8fdde74525658c04fbad4e11b8171bfd6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5fPUeaWQQ/3/2\nnzD6KiFGkZwzK+zh42E93/Cc9QcsgDwZVrqy5YZGcFLl7WhFKVMAMvCDri3WVIkX\nQPxOhDkLIXYyxBFGKq+Gur+9WJwTL+2DMYCLcnuyL4zCwcjwRBGhLfavk6HZJGSL\nX5BAH0PB02zGdGpSYyaIVbAi6QmHrFwaKB1bd0hwL2/vNFwFLk6SpU7ebywL+2Ac\nweOuFfaRH5ywT9apQ6/+QC6TdY1A7nDfvj2FBE3be5EhUYnEVXVwTQeG8eJ6QlKy\ng+i/QdV/WAoM4AyBDrERJI+2u2kR6LfPcfEOZOM2pvdtARF1Lz9i9dyIBRMP979T\nsfVAVEenAgMBAAECggEAVNfkYvHAFMpZpNwyEeudZuMJuJpZ8wUHoL7DF3g4vNE3\nLDvwkA3Oun98W7GZJTF+xrOGMiVE0CnAv0M5ZUyzrvSyVQw7/oVd3lmjhJ94XIpq\nsLy+2IoYLGv1jcwH9macTcZxdOQpfuJXnyyqFbp3SrxDoA715xN1N51CQOWpN0YH\nBFI/XUPQTzziloS+gTg4kHkjpt5IT7FrHNlwTW7nAh7Wt98IHG1rnLcCeBn4GYwq\nZu+dKhNmvG1uW86GhB5M7Yn9LXPOuDCxwbosp0IDja47aL08PDWpdu0meAWkfpY1\n/jb7wS5RL/eLmTfHGLM5Rc2qTYKevatM8Q2SRIkNcQKBgQDl4anOYab/jl9ce38Q\naS7lGWPp5HlK/3+3IPo4gmLp1C5AM+flJKeR/8bszLG1R50RDJ3atYK+ElvN/Wxi\n4cvWp40Me0qu4uRCGtwtCUU5V86RIK2l84Ebih6mJGs9++nHoKf5J100rK0nUcZf\nYI1/qIwffXyZiMSeZn4wfL4ESQKBgQDOkBFO4tTOUTjwTGNC1KdTMhqLoun9c96A\nmJwzCGKgPRoj/RQbifFWF2NBstilI96s9L91HTs0BH3swMYSkCNJVeOlRpZD9lX+\nvY5H+YgRXe3ovEy6sU1IFTCVMi/zkyIb6W/QKA1S0XcoDVTpDmdNXtLHL13Dvune\nSW/lKdUMbwKBgDNb8YYshxT9iAyvgrn15gZFX+83nmnFH5GYio7pgpPfVd3+OscV\nI2MZFCZ/rQxlTZArk3DzsJwqmdwxzG9jJxl0Ia0yNoNQKdMjESH2ukKPfZUrCeDT\nwHqYpzRTWqpkh9yT5jNiOg60rZLlUD6q4bItw/CdJqNezR7eoz7N/94RAoGBALF7\nC8QSFfLnytp9Z9QmT1ameDR+WDpTclxfw+X9UHCJz4oYi0xWK6xjD/+FIaxSs6M7\n7706zoGVUnU39XhBrG/4gk6h5b6jS6RDTpr9BjKV2DLeh7bpXJOQ0Vt/8b+BLg95\ndX8OytPb8lvRiKFupMfPr59BTXlA8kTyKFhopwu1AoGAFLYj8oCe3kxo3ZzwJLW+\nc8BYgukFd3XCTues7HC1V3yD3LURrwS/Jo6rPOULuw5qXIkZNIEJlH4HMgwB9MwF\nWsfziZnlaihfOxS3icc42zVmv+xHxtVbK5At90NyUxWa2cfDbwS9/RQd7pxTV21H\na4sHer8zc9QrjS2UXBIiEZc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "owen-629@kgcriftequipsimulator.iam.gserviceaccount.com",
+  "client_id": "108023282524782358864",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/owen-629%40kgcriftequipsimulator.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
