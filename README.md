@@ -10,4 +10,4 @@ All rights for copyrighted material is reserved for it's rightful owner.
 
 More details about Awesomepiece on: https://awesomepiece.com/
 
-King God Castle on Google Play: https/sbit.ly/4643sSi
+King God Castle on Google Play: https://surl.li/yusagc
