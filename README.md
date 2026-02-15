@@ -22,3 +22,12 @@ King God Castle on Google Play: https://surl.li/yusagc
 
 Email me here: 
   ascii01000011c@gmail.com
+
+
+
+Contributors:<br>
+Lead Development and Programming<br>
+    Christian Loewen D. Barcena<br>
+    <br>
+  Deployment and Debugging<br>
+    Francis Dave Aldave<br>
